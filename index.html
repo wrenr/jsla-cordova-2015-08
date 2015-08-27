@@ -66,15 +66,6 @@
                         </div>
                     </section>
                     <section>
-                        <h2>What we'll cover in this talk</h2>
-                        <ul>
-                            <li class="fragment">Mac Development Environment</li>
-                            <li class="fragment">Command Line - mostly</li>
-                            <li class="fragment">Building for iOS and Android...</li>
-                            <li class="fragment">other device platforms exist!</li>
-                        </ul>
-                    </section>
-                    <section>
                         <div class="feature" style="margin-top: 180px;">
                             <h2>What is Cordova?</h2>
                         </div>
@@ -85,29 +76,13 @@
                             <li class="fragment">Make native apps using HTML, CSS, and Javascript</li>
                             <li class="fragment">Making the interface = building a webpage</li>
                             <li class="fragment">Native advantage - Access parts of the device that a webpage can't</li>
-                        </ul>
-                    </section>
-                </section>
-                <section>
-                    <section>
-                        <div class="feature" style="margin-top: 180px;">
-                            <h2>Setting up Cordova</h2>
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Tips</h2>
-                        <ul>
-                            <li class="fragment"><a href="http://cordova.apache.org/docs/en/4.0.0/guide_platforms_index.md.html#Platform%20Guides">Apache Cordova platform guides</a></li>
-                            <li class="fragment">Installing package dependencies on Mac - use <a href="http://brew.sh">Homebrew</a></li>
+                            <li class="fragment">Make an app for iOS, Android, Windows Phone, Blackberry, Firefox OS, and more</li>
                         </ul>
                     </section>
                     <section>
-                        <h2>Prerequisites</h2>
+                        <h2>What about Phonegap?</h2>
                         <ul>
-                            <li class="fragment">This guide assumes you're running a recent laptop with Mac OS 10.10 Yosemite</li>
-                            <li class="fragment"><a href="https://nodejs.org">Node.js</a></li>
-                            <li class="fragment">Ruby. <a href="https://rvm.io/rvm/install">RVM</a> is useful</li>
-                            <li class="fragment">Cordova command line. <a href="http://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html#The%20Command-Line%20Interface">Installation instructions</a></li>
+                            <li>Adobe's mobile development framework that is powered by Cordova</li>
                         </ul>
                     </section>
                     <section>
@@ -128,93 +103,41 @@
                         </ul>
                     </section>
 
-                    <section>
-                        <div class="feature" style="margin-top: 180px;">
-                            <h2>Setting up Android</h2>
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Install Java JDK</h2>
-                        <ul>
-                            <li>Install Java JDK from Apple <a href="https://support.apple.com/kb/DL1572?locale=en_US">(link)</a></li>
-                            <li>... ignore the Lion logo, it works fine</li>
-                        </ul>
-                        <div>
-                            <img src="img/android/000-apple-java-jdk-link.png" style="max-height:300px" />
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Install Android SDK</h2>
-                        <ul>
-                            <li>Install the stand-alone Android SDK tools <a href="http://developer.android.com/sdk/index.html#Requirements">(link)</a></li>
-                            <li>Android 5.1.1 (API 22) platform SDK</li>
-                            <li>Android SDK Build-tools version 19.1.0 or higher</li>
-                            <li>Android Support Repository (Extras)</li>
-                        </ul>
-                        <div>
-                            <img src="img/android/002-install-android-sdk-packages.png" style="max-height:300px" />
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Update Android SDK path</h2>
-                        <ul>
-                            <li>Update your path so the Android SDK tools can be accessed from the command line</li>
-                        </ul>
-                        <div>
-                            <p style="font-size: 24px;background:black">export PATH=${PATH}:/&lt;install folder path&gt;/android-sdk/platform-tools:/&gt;install folder path&lt;/android-sdk/tools</p>
-
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Done setting up Android!</h2>
-                        <ul>
-                            <li class="fragment">Now for iOS...</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <div class="feature" style="margin-top: 180px;">
-                            <h2>Setting up Xcode</h2>
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Installing Xcode</h2>
-                        <ul>
-                            <li>Search for Xcode on the App store</li>
-                            <li>You must be logged in with an Apple ID and agree to the terms</li>
-                            <li>Add billing info if you haven't</li>
-                        </ul>
-                        <div>
-                            <img src="img/xcode/001-search-for-xcode.png" style="max-height:300px" />
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Install Xcode Command Line Tools</h2>
-                        <ul>
-                            <li>Here's a good guide <a href="http://railsapps.github.io/xcode-command-line-tools.html">(link)</a></li>
-                            <li class="fragment">you can install the command line tools with the command <strong>xcode-select --install</strong></li>
-                        </ul>
-                        <div>
-                            <img src="img/xcode/005-install-xcode-command-line-tools.png" style="max-height:300px" />
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Accept Xcode iOS License Terms</h2>
-                        <ul>
-                            <li>After installing, run a command. it will prompt you to agree to the Xcode iOS license terms</li>
-                            <li>Then open Xcode - it will prompt you to install additional components</li>
-                        </ul>
-                        <div>
-                            <img src="img/xcode/007-accept-xcode-cli-license.png" style="max-height:300px" />
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Xcode is ready</h2>
-                        <ul>
-                            <li class="fragment">You can build iOS apps</li>
-                            <li class="fragment bad">... for now</li>
-                        </ul>
-                    </section>
                 </section>
+                <section>
+                    <section>
+                        <div class="feature" style="margin-top: 180px;">
+                            <h2>Setting up Cordova</h2>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>Tips</h2>
+                        <ul>
+                            <li class="fragment"><a href="http://cordova.apache.org/docs/en/4.0.0/guide_platforms_index.md.html#Platform%20Guides">Apache Cordova platform guides</a></li>
+                            <li class="fragment">Installing package dependencies on Mac - use <a href="http://brew.sh">Homebrew</a></li>
+                            <li class="fragment">Setting up Devices and Environments? <a href="http://wrenr.github.io/cordova-workshop/">http://wrenr.github.io/cordova-workshop/</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Prerequisites</h2>
+                        <ul>
+                            <li class="fragment">Cordova works with Windows, Linux, and Mac OS</li>
+                            <li class="fragment"><a href="https://nodejs.org">Node.js</a></li>
+                            <li class="fragment">Ruby. <a href="https://rvm.io/rvm/install">RVM</a> is useful</li>
+                            <li class="fragment">Cordova command line. <a href="http://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html#The%20Command-Line%20Interface">Installation instructions</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Set up Local Environments</h2>
+                        <ul>
+                            <li>Android: install SDKs and build tools</li>
+                            <li>iOS: Set up Xcode, command-line tools, licenses</li>
+                            <li class="fragment">Setting up Devices and Environments? <a href="http://wrenr.github.io/cordova-workshop/">http://wrenr.github.io/cordova-workshop/</a></li>
+                        </ul>
+                    </section>
+
+                </section>
+
                 <section>
                     <section>
                         <div class="feature" style="margin-top: 180px;">
@@ -231,18 +154,18 @@
                     <section>
                         <h2>Create a Project</h2>
                         <ul>
-                            <li class="fragment"><strong>cordova create hello com.example.hello HelloWorld</strong></li>
+                            <li class="fragment"><strong>cordova create sickdemo com.example.sickdemo SickDemo</strong></li>
                             <li class="fragment">Directory</li>
                             <li class="fragment">Identifier (and bundle ID)</li>
                             <li class="fragment">Application title</li>
-                            <li class="fragment">This creates a <strong>hello</strong> directory with your project</li>
+                            <li class="fragment">This creates a <strong>sickdemo</strong> directory with your project</li>
                         </ul>
                     </section>
                     <section>
                         <h2>Add Android Platform</h2>
                         <ul>
                             <li class="fragment">Let's add Android first</li>
-                            <li class="fragment">go to the <strong>hello</strong> directory</li>
+                            <li class="fragment">go to the <strong>sickdemo</strong> directory</li>
                             <li class="fragment"><strong>cordova platform add android</strong></li>
                             <li class="fragment">This creates an <strong>android</strong> directory in <strong>/platforms</strong></li>
                         </ul>
@@ -264,117 +187,13 @@
                         </div>
                     </section>
                     <section>
-                        <div class="feature" style="margin-top: 180px;">
-                            <h2>Running on an Android Device</h2>
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Run with Cordova Command Line - Prereqs</h2>
+                        <h2>Running on Devices</h2>
                         <ul>
-                            <li>prerequisites include the default Cordova Android SDK version (Android 4.4.2 (API 19))</li>
-                        </ul>
-                        <div>
-                            <img src="img/android/003-install-android-api-19-package.png" style="max-height:300px" />
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Run with Cordova Command Line - Prereqs</h2>
-                        <ul>
-                           <li>On Macs, <strong>ant</strong> is needed. I use Homebrew <strong>brew install ant</strong></li>
-                        </ul>
-                        <div>
-                            <img src="img/android/004-install-ant.png" style="max-height:300px" />
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Device: Enable USB Debugging</h2>
-                        <ul>
-                           <li>Enable in device Settings. <a href="http://www.kingoapp.com/root-tutorials/how-to-enable-usb-debugging-mode-on-android.htm">Great guide</a></li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h2>Run it and debug it</h2>
-                        <ul>
-                           <li><strong>cordova run android</strong></li>
-                           <li>Android tools - <strong>monitor</strong> command. View all of your app's log output on your PC</li>
-                           <li>Latest version of Cordova deletes the old app.</li>
-                           <li>I think.</li>
+                            <li>Android: Enable debugging, run it</li>
+                            <li>iOS: Initialize device, enable XCode Developer mode, resolve any dependencies</li>
                         </ul>
                     </section>
                 </section>
-                <section>
-                    <section>
-                        <div class="feature" style="margin-top: 180px;">
-                            <h2>Running on an iOS Device</h2>
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Initialize the Device</h2>
-                        <ul>
-                            <li class="fragment">Connect the device</li>
-                            <li class="fragment">"trust this computer"</li>
-                            <li class="fragment">Run it with "play" button</li>
-                            <li class="fragment">Then a first time progress bar...</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h2>Xcode - Enable Developer mode</h2>
-                        <ul>
-                            <li>Enable this so you don't need to re-enter an admin password every build</li>
-                            <li class="fragment">The build continues and...</li>
-                        </ul>
-                        <div>
-                            <img src="img/xcode/009-xcode-enable-developer-mode.png" style="max-height:300px" />
-                        </div>
-                    </section>
-                    <section>
-                        <div class="feature" style="margin-top: 180px;">
-                            <h2>When Xcode goes horribly wrong</h2>
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Failed to Code Sign</h2>
-                        <ul>
-                            <li class="fragment">One of many, many possible errors</li>
-                            <li class="fragment">To run on your device, the app must be signed</li>
-                            <li class="fragment">You must set up a developer profile in Xcode. Select Fix Issue</li>
-                        </ul>
-                        <div>
-                            <img src="img/xcode/010-code-sign-failed.png" style="max-height:300px" />
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Add Developer Apple ID</h2>
-                        <ul>
-                            <li>You are prompted to add an Apple ID that is enrolled in a Developer program</li>
-                            <li>Select "Add..."</li>
-                            <li>Enter your Apple Developer ID</li>
-                        </ul>
-                        <div>
-                            <img src="img/xcode/011-add-a-developer-apple-id.png" style="max-height:300px" />
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Sidebar: Installing app on devices - It's... complicated</h2>
-                        <ul>
-                            <li class="fragment">You must create an Apple ID</li>
-                            <li class="fragment">You must purchase an iOS Developer Program Membership ($99)</li>
-                            <li class="fragment">You must add your Device UDID to the Provisioning Profile</li>
-                            <li class="fragment">You must create a development certificate</li>
-                            <li class="fragment">there's more, it's complicated, it sucks</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h2>It really does</h2>
-                        <div>
-                            <img src="img/xcode/012-select-a-development-team.png" style="max-height:300px" />
-                            <img src="img/xcode/013-already-has-a-valid-ios-certificate.png" style="max-height:300px" />
-                            <img src="img/xcode/014-xcode-export-developer-profile.png" style="max-height:300px" />
-                            <img src="img/xcode/016-allow-codesign-keychain-access.png" style="max-height:300px" />
-                        </div>
-                    </section>
-                </section>
-
                 <section>
                     <section>
                         <div class="feature" style="margin-top: 180px;">
@@ -428,14 +247,8 @@
                     </section>
                     <section>
                         <h2>Third-party plugins</h2>
-                        <div class="fragment">
-                            <img src="img/cordova/mos-eisley.jpg" style="max-height:400px" />
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Third-party plugins</h2>
                         <ul>
-                            <li class="fragment">Will they work? "Maybe. Maybe not."</li>
+                            <li class="fragment">Ensure it's compatible</li>
                             <li class="fragment">Watch for plugin updates! Lock your code to one version if using automated builds</li>
                             <li class="fragment">Cordova updates break older plugins</li>
                         </ul>
@@ -453,13 +266,11 @@
                     <section>
                         <div class="feature" style="margin-top: 180px;">
                             <h2>Device Considerations</h2>
-                            <p>There are always exceptions...</p>
                         </div>
                     </section>
                     <section>
-                        <h2>iOS Oddities</h2>
+                        <h2>iOS Considerations</h2>
                         <ul>
-                            <li class="fragment bad">"It doesn't run on my device"</li>
                             <li class="fragment">Installing and setting up XCode</li>
                             <li class="fragment">Developer Licensing, Provisioning Profiles, Certificates</li>
                             <li class="fragment">App Store Submission and Approval</li>
@@ -467,16 +278,15 @@
                         </ul>
                     </section>
                     <section>
-                        <h2>Android Oddities</h2>
+                        <h2>Android Considerations</h2>
                         <ul>
-                            <li class="fragment bad">"It doesn't run on these 10,000 other devices"</li>
                             <li class="fragment">Device Fragmentation</li>
                             <li class="fragment">Intents</li>
                             <li class="fragment">Hardware buttons Back, Home, Search, and Info</li>
                         </ul>
                     </section>
                     <section>
-                        <h2>General Cross-Platform Oddities</h2>
+                        <h2>General Cross-Platform Considerations</h2>
                         <ul>
                             <li class="fragment">Different UI Behaviors and User Expectations</li>
                             <li class="fragment">Different implementations of software functionality. <strong class="highlight">Local Notifications</strong></li>
@@ -484,7 +294,7 @@
                     </section>
 
                     <section>
-                        <h2>Solutions to iOS, Android, and Cross-Platform issues</h2>
+                        <h2>Solutions to any iOS, Android, and Cross-Platform issues</h2>
                         <ul>
                             <li class="fragment">Use what you know</li>
                             <li class="fragment">Got an iPhone? Make iPhone.</li>
@@ -492,7 +302,7 @@
                         </ul>
                     </section>
                     <section>
-                        <h2>More Solutions to iOS, Android, and Cross-Platform issues</h2>
+                        <h2>More Solutions to any iOS, Android, and Cross-Platform issues</h2>
                         <ul>
                             <li class="fragment">Test</li>
                             <li class="fragment">Test</li>
@@ -531,7 +341,7 @@
                         <ul>
                             <li class="fragment">Build app with <strong>cordova build &lt;platform&gt;</strong></li>
                             <li class="fragment">Run on device, using either <strong>cordova run</strong> or IDE</li>
-                            <li class="fragment">Check debug logging on PC (if using console plugin)</li>
+                            <li class="fragment">Check debug logging on PC (if using Cordova Console plugin)</li>
                         </ul>
                     </section>
                     <section>
